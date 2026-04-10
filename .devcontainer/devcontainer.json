@@ -7,6 +7,5 @@
       "upgradePackages": false
     }
   },
-  "onCreateCommand": "sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y curl diffutils build-essential pkgconf zstd gzip cmake clang clangd libclang-dev libudev-dev protobuf-compiler autoconf automake autopoint bison flex gcc-multilib gettext llvm lcov libgmp-dev perl git && git submodule update --init --recursive",
-  "postCreateCommand": "./deps.sh +dev"
+  "onCreateCommand": "sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y curl diffutils build-essential pkgconf zstd gzip cmake clang clangd libclang-dev libudev-dev protobuf-compiler autoconf automake autopoint bison flex gcc-multilib gettext llvm lcov libgmp-dev perl git && git submodule update --init --recursive"
 }
